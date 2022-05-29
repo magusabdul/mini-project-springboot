@@ -41,7 +41,4 @@ public class AppUserService implements UserDetailsService{
         user.setPassword(encodePassword);
         return appUserRepo.save(user);
     }
-
-
-
 }
